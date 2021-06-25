@@ -37,7 +37,7 @@ async def test(ctx):
         await ctx.send("You don't have permission to use this command.")
 
 
-client.run('ODQ1MzM5NjY1NzA4MDg5MzQ0.YKfh6Q.q31lMHLCCGOR75vuFgxVe6pFdCs')
+client.run(os.environ['BOT_TOKEN'])
 
 #Things lolo want:
 #1. INGAME DATE: 20 irl mins = 1 ingame day
